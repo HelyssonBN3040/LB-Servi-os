@@ -90,7 +90,7 @@ a, p, .btn{
 
 p{
     line-height:1.9em;
-    opacity:0.6;
+    opacity:0.9;
     text-align: justify;
 }
 
@@ -767,9 +767,17 @@ main{
     background-color:var(--primary);
     color:var(--white);
     align-items:center;
-    justify-content:space-between;
+    justify-content:space-around;
     position:relative;
     overflow:hidden;
+}
+.division_3 section aside a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.division_3 section img{
+    width: 50px;
 }
 
 .division_3 section:before{
